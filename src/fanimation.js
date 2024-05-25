@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import FluidAnimation from "../src/fluidAnimation/components/react-fluid-animation";
+import FluidAnimation from "./fluidAnimation/components/react-fluid-animation";
 const defaultConfig = {
   textureDownsample: 1,
   densityDissipation: 0.94,
