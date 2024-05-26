@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js',
+    filename: 'index.js',
     library: 'my-react-library',
     libraryTarget: 'umd',
   },
@@ -19,4 +19,7 @@ module.exports = {
       },
     ],
   },
+  externals: {
+		react: "react"
+	}
 };
